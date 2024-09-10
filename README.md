@@ -1,4 +1,4 @@
-# Iterating-Over-Data-Challenge
+# Iterating Over Data Challenge: Solution
 This repository is the class activity for Iterating Over Data in Unit 1.
 
 ## Getting Started
