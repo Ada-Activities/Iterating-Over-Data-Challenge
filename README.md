@@ -51,4 +51,10 @@ Verify that you're in a python3 virtual environment by running:
 ```bash
 $ (venv) pip install -r requirements.txt
 ```
+5. After installing dependencies, use the following command to run your tests:
+   
+```bash
+$ (venv) pytest
+```
 
+You should see 2 failed test and 8 skipped tests. Comment out the skip decorators (`@pytest.mark.skip`) located above the skipped to tests to have them run. 
