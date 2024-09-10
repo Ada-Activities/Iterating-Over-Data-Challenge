@@ -1,6 +1,17 @@
 # Iterating Over Data Challenge: Solution
 This repository is the class activity for Iterating Over Data in Unit 1.
 
+## Instructions
+Start by cloning this repository. After setting up your virtual environment and installing required packages (see instructions below) as a group you should: 
+- Look at the provided function stub
+- Look at the provided tests
+- Implement the functions to make the tests pass
+- The first 3 functions build on each other.
+    - Consider using each previous function to help build the next!
+- The 4th function is there for whimsy, but it can still be tricky!
+
+The first is done in class together.
+
 ## Getting Started
 1. In Github click on the green "Code" button in Github and then copy the URL. This will allow you to download a copy of this project into your projects folder. This command makes a new folder called `Iterating-Over-Data-Challenge`, and then puts the project into this new folder. 
 
@@ -40,15 +51,4 @@ Verify that you're in a python3 virtual environment by running:
 ```bash
 $ (venv) pip install -r requirements.txt
 ```
-
-## Instructions
-All group members should fork and clone this repository. After setting up your virtual environment and downloading `pytest` (see instructions above) as a group you should: 
-- Look at the provided function stub
-- Look at the provided tests
-- Implement the functions to make the tests pass
-- The first 3 functions build on each other.
-    - Consider using each previous function to help build the next!
-- The 4th function is there for whimsy, but it can still be tricky!
-
-The first is done in class together.
 
