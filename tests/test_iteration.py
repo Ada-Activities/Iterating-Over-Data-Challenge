@@ -2,7 +2,6 @@ from main import (
     ninety_nine_bottles, calculate_total_sales,
     calculate_average_sales, filter_to_better_than_average_sales,
 )
-import pytest
 
 def test_caculate_candy_total_no_data_returns_0():
     sales_totals = {}
@@ -25,7 +24,6 @@ def test_caculate_candy_total_returns_total_sales():
     assert total == 395.0
 
 
-@pytest.mark.skip("remove this line when working on calculate_average_sales")
 def test_caculate_candy_average_no_data_returns_0():
     sales_totals = {}
 
@@ -34,7 +32,6 @@ def test_caculate_candy_average_no_data_returns_0():
     assert average == 0.0
 
 
-@pytest.mark.skip("remove this line when working on calculate_average_sales")
 def test_caculate_candy_average_returns_average():
     sales_totals = {
         "Junior Mints": { "quantity": 100, "price": 2.0 },
@@ -48,7 +45,6 @@ def test_caculate_candy_average_returns_average():
     assert average == 98.75
 
 
-@pytest.mark.skip("remove this line when working on filter_to_better_than_average_sales")
 def test_filter_to_above_average_sales_no_data_returns_empty_dict():
     sales_totals = {}
 
@@ -57,7 +53,6 @@ def test_filter_to_above_average_sales_no_data_returns_empty_dict():
     assert filtered == {}
 
 
-@pytest.mark.skip("remove this line when working on filter_to_better_than_average_sales")
 def test_filter_to_above_average_sales_returns_filtered_result():
     sales_totals = {
         "Junior Mints": { "quantity": 100, "price": 2.0 },
@@ -74,7 +69,6 @@ def test_filter_to_above_average_sales_returns_filtered_result():
     }
 
 
-@pytest.mark.skip("remove this line when working on ninety_nine_bottles")
 def test_99_bottles_returns_lyrics():
     count = 99
     beverage = "pop"
@@ -83,7 +77,6 @@ def test_99_bottles_returns_lyrics():
 
     assert len(lines) == 99 * 2
 
-@pytest.mark.skip("remove this line when working on ninety_nine_bottles")
 def test_2_bottles_returns_lyrics():
     count = 2
     beverage = "pop"
@@ -100,7 +93,6 @@ def test_2_bottles_returns_lyrics():
     assert lines == expected_lines
 
 
-@pytest.mark.skip("remove this line when working on ninety_nine_bottles")
 def test_1_bottle_returns_lyrics():
     count = 1
     beverage = "pop"
@@ -115,7 +107,6 @@ def test_1_bottle_returns_lyrics():
     assert lines == expected_lines
 
 
-@pytest.mark.skip("remove this line when working on ninety_nine_bottles")
 def test_0_bottles_returns_no_lyrics():
     count = 0
     beverage = "pop"
